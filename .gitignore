@@ -1,3 +1,4 @@
+*.env
 script.py
 backup.js
 imageCover.jpeg
