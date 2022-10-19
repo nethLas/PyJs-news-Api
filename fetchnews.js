@@ -1,5 +1,5 @@
 const NewsAPI = require("newsapi");
-const newsapi = new NewsAPI("bb63c55aa38448dc8dd098bfce958c3a");
+const newsapi = new NewsAPI(process.env.NEWS_KEY);
 const axios = require("axios");
 
 // and we need jsdom and Readability to parse the article HTML
